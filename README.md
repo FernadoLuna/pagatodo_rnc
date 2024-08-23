@@ -17,7 +17,11 @@ Se utilizó en su mayoría una arquitectura MVVC, donde se tiene un screen que c
 
 #### Pruebas
 
-Por el momento no se han ejecutado pruebas en la arquitectura de React Native CLI, solo en Expo. Espere futuros cambios.
+Para ejecutar las pruebas solo hace falta ejecutar:
+
+1. yarn test
+
+si hay errores, ejecuta yarn install para reinstalar algunas librerias
 
 ### Sección en Inglés
 
@@ -38,4 +42,8 @@ The project primarily uses an MVVC architecture, where a screen corresponds to t
 
 #### Tests
 
-Testing has not been conducted in the React Native CLI architecture so far, only in Expo. Please wait for future updates.
+for execute the testing, run this comand
+
+1. yarn test
+
+if you have error, run **yarn install**

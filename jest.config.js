@@ -1,3 +1,6 @@
 module.exports = {
-  preset: 'react-native',
+  preset: 'ts-jest',
+  setupFiles: [
+    '@react-native-async-storage/async-storage/jest/async-storage-mock',
+  ],
 };
